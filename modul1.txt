@@ -1,0 +1,33 @@
+pwd = posisi saat ini berada di dalam folder mana.
+ls = untuk melihat isi dari folder tersebut.
+cd = untuk berpindah ke folder lain.
+mkdir = untuk membuat folder baru.
+touch = untuk membuat file baru.
+rm = untuk menghapus file atau folder.
+mv = untuk memindahkan atau mengganti nama file atau folder.
+cp = untuk menyalin file atau folder.
+cat = untuk menampilkan isi dari file.
+ls -l = untuk melihat isi folder dengan detail.
+ls -a = untuk melihat semua file, termasuk yang tersembunyi.
+ls -la = untuk melihat semua file dengan detail.
+cd .. = untuk kembali ke folder sebelumnya.
+cd ~ = untuk kembali ke home directory.
+cd / = untuk masuk ke root directory.
+rm -r = untuk menghapus folder beserta isinya.
+rmdir = untuk menghapus folder kosong.
+head = untuk menampilkan beberapa baris pertama dari sebuah file.
+tail = untuk menampilkan beberapa baris terakhir dari sebuah file.
+tree = untuk menampilkan struktur folder secara hierarki.
+
+-- SYSTEM HIREARKI --
+/bin = folder yang berisi file-file eksekusi atau program yang dapat dijalankan oleh sistem.
+/usr = folder yang berisi file-file yang digunakan oleh pengguna, seperti aplikasi dan library.
+/home = folder yang berisi direktori home untuk setiap pengguna di sistem.
+/var = folder yang berisi file-file yang berubah secara dinamis, seperti log dan cache
+/tmp = folder yang digunakan untuk menyimpan file sementara yang dibuat oleh aplikasi atau sistem.
+dev = folder yang berisi file-file perangkat keras dan driver yang digunakan oleh sistem.
+etc = folder yang berisi file-file konfigurasi sistem dan aplikasi.
+opt = folder yang digunakan untuk menyimpan aplikasi tambahan yang tidak termasuk dalam sistem operasi.
+sbin = folder yang berisi file-file eksekusi atau program yang digunakan oleh administrator sistem untuk melakukan tugas-tugas administratif.
+usr/bin = folder yang berisi file-file eksekusi atau program yang digunakan oleh pengguna biasa.
+usr/lib = folder yang berisi file-file library yang digunakan oleh aplikasi dan program di sistem.
