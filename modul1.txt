@@ -19,7 +19,7 @@ head = untuk menampilkan beberapa baris pertama dari sebuah file.
 tail = untuk menampilkan beberapa baris terakhir dari sebuah file.
 tree = untuk menampilkan struktur folder secara hierarki.
 
--- SYSTEM HIREARKI --
+-- SYSTEM HIREARKI ---
 /bin = folder yang berisi file-file eksekusi atau program yang dapat dijalankan oleh sistem.
 /usr = folder yang berisi file-file yang digunakan oleh pengguna, seperti aplikasi dan library.
 /home = folder yang berisi direktori home untuk setiap pengguna di sistem.
