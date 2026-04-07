@@ -1,3 +1,13 @@
+                          --basic of operating system--
+1. Operating System (OS) adalah perangkat lunak yang mengelola sumber daya komputer dan menyediakan layanan untuk program komputer. OS bertanggung jawab untuk mengatur dan mengelola perangkat keras, seperti CPU, memori, dan perangkat penyimpanan, serta menyediakan antarmuka bagi pengguna untuk berinteraksi dengan komputer.
+- operasi sistem meliputi kombinasi kernel dan user space, di mana kernel adalah inti dari sistem operasi yang mengelola sumber daya sistem, sedangkan user space adalah lingkungan di mana aplikasi dan program berjalan.
+-kernel = bertanggung jawab untuk mengelola sumber daya sistem, seperti memori, proses, dan perangkat keras. Kernel juga menyediakan layanan dasar untuk aplikasi, seperti manajemen file, manajemen proses, dan manajemen memori.
+- user = menyediakan antarmuka bagi pengguna dengan sistem operasi
+
+                                --introduce linux --
+A. proses manajemen = Linux menggunakan model manajemen proses yang efisien, di mana setiap proses memiliki ID unik (PID) dan dapat berjalan secara bersamaan. Linux mendukung multitasking, sehingga beberapa proses dapat berjalan secara bersamaan tanpa saling mengganggu.
+
+
 pwd = posisi saat ini berada di dalam folder mana.
 ls = untuk melihat isi dari folder tersebut.
 cd = untuk berpindah ke folder lain.
@@ -19,7 +29,9 @@ head = untuk menampilkan beberapa baris pertama dari sebuah file.
 tail = untuk menampilkan beberapa baris terakhir dari sebuah file.
 tree = untuk menampilkan struktur folder secara hierarki.
 
--- SYSTEM HIREARKI ---
+
+
+                                -- SYSTEM HIREARKI ---
 /bin = folder yang berisi file-file eksekusi atau program yang dapat dijalankan oleh sistem.
 /usr = folder yang berisi file-file yang digunakan oleh pengguna, seperti aplikasi dan library.
 /home = folder yang berisi direktori home untuk setiap pengguna di sistem.
@@ -28,6 +40,26 @@ tree = untuk menampilkan struktur folder secara hierarki.
 dev = folder yang berisi file-file perangkat keras dan driver yang digunakan oleh sistem.
 etc = folder yang berisi file-file konfigurasi sistem dan aplikasi.
 opt = folder yang digunakan untuk menyimpan aplikasi tambahan yang tidak termasuk dalam sistem operasi.
-sbin = folder yang berisi file-file eksekusi atau program yang digunakan oleh administrator sistem untuk melakukan tugas-tugas administratif.
-usr/bin = folder yang berisi file-file eksekusi atau program yang digunakan oleh pengguna biasa.
-usr/lib = folder yang berisi file-file library yang digunakan oleh aplikasi dan program di sistem.
+sbin = folder yang berisi file-file eksekusi atau program yang digunakan oleh administrator sistem.
+lib = folder yang berisi file-file library yang digunakan oleh sistem dan aplikasi.
+media = folder yang digunakan untuk menyimpan file-file media, seperti gambar, video, dan musik.
+mnt = folder yang digunakan untuk menyimpan file-file yang di-mount, seperti hard drive ekst
+ernal atau partisi.
+proc = folder yang berisi file-file virtual yang merepresentasikan proses-proses yang sedang berjalan di sistem.
+root = folder yang merupakan direktori home untuk pengguna root, yang memiliki hak akses penuh ke sistem.
+srv = folder yang digunakan untuk menyimpan file-file yang terkait dengan layanan atau server yang dijalankan di sistem.
+sys = folder yang berisi file-file virtual yang merepresentasikan informasi tentang sistem dan perangkat keras yang digunakan oleh sistem.
+
+ --System layering---
+1. Kernel Layer: Lapisan ini merupakan inti dari sistem operasi yang mengelola sumber daya sistem, seperti memori, proses, dan perangkat keras. Kernel bertanggung jawab untuk menjalankan perintah dari pengguna dan aplikasi, serta mengatur akses ke sumber daya sistem.
+2. System Call Layer: Lapisan ini menyediakan antarmuka bagi aplikasi untuk berkomunikasi dengan kernel. Aplikasi dapat menggunakan system call untuk meminta layanan dari kernel, seperti membaca atau menulis file, mengalokasikan memori, atau membuat proses baru.
+3. Library Layer: Lapisan ini berisi kumpulan fungsi dan pustaka yang digunakan oleh aplikasi untuk melakukan tugas-tugas tertentu, seperti manipulasi string, operasi matematika, atau akses jaringan. Library ini menyediakan abstraksi yang memudahkan pengembangan aplikasi.
+4. Application Layer: Lapisan ini terdiri dari aplikasi-aplikasi yang dijalankan oleh pengguna. Aplikasi ini dapat berupa program yang berjalan di terminal, aplikasi grafis, atau layanan yang berjalan di latar belakang. Aplikasi ini menggunakan library dan system call untuk berinteraksi dengan kernel dan sumber daya sistem.
+
+
+--command workflow---
+command = perintah yang diberikan oleh pengguna untuk melakukan suatu tugas atau operasi tertentu di sistem operasi.
+shell = program yang menyediakan antarmuka untuk pengguna untuk berinteraksi dengan sistem operasi melalui command line. Shell menerima perintah dari pengguna, memprosesnya, dan mengirimkannya ke kernel untuk dieksekusi.
+system call = permintaan yang dibuat oleh aplikasi atau shell kepada kernel untuk melakukan suatu operasi tertentu, seperti membaca atau menulis file, mengalokasikan memori, atau membuat proses baru.
+kernel = inti dari sistem operasi yang mengelola sumber daya sistem, seperti memori, proses, dan perangkat keras. Kernel bertanggung jawab untuk menjalankan perintah dari pengguna dan aplikasi, serta mengatur akses ke sumber daya sistem.
+file system = struktur organisasi data yang digunakan oleh sistem operasi untuk menyimpan dan mengelola file dan direktori di dalam penyimpanan. File system menyediakan cara untuk mengatur, menyimpan, dan mengakses file dan direktori dengan efisien.
