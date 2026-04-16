@@ -11,10 +11,17 @@ command :
 :syntax on untuk mengaktifkan syntax highlighting
 :syntax off untuk menonaktifkan syntax highlighting
 :set number untuk menampilkan nomor baris
+
+
+
+
 --visual mode
 v untuk masuk ke visual mode
 V untuk masuk ke visual line mode
 Ctrl + v untuk masuk ke visual block mode
+h,j,k,l untuk memindahkan kursor
+w/b untuk memindahkan kursor ke awal atau akhir kata
+gg/G untuk memindahkan kursor ke awal atau akhir file
 y untuk menyalin teks yang dipilih
 d untuk memotong teks yang dipilih
 p untuk menempelkan teks yang disalin atau dipotong
