@@ -1,0 +1,20 @@
+system operasi
+vim adalah text editor
+command :
+:wq untuk menyimpan dan keluar
+:q! untuk keluar tanpa menyimpan
+:w untuk menyimpan tanpa keluar
+:x untuk menyimpan dan keluar
+:help untuk membuka bantuan
+:%s/old/new/g untuk mengganti semua kata old dengan new
+:1,10s/old/new/g untuk mengganti kata old dengan new pada baris 1 sampai 10
+:syntax on untuk mengaktifkan syntax highlighting
+:syntax off untuk menonaktifkan syntax highlighting
+:set number untuk menampilkan nomor baris
+--visual mode
+v untuk masuk ke visual mode
+V untuk masuk ke visual line mode
+Ctrl + v untuk masuk ke visual block mode
+y untuk menyalin teks yang dipilih
+d untuk memotong teks yang dipilih
+p untuk menempelkan teks yang disalin atau dipotong
